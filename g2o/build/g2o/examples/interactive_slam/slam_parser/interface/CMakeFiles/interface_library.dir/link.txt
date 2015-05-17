@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++0x  -Wall -W -O3 -DNDEBUG   -shared -Wl,-soname,libg2o_interface.so -o ../../../../../../lib/libg2o_interface.so CMakeFiles/interface_library.dir/parser_interface.cpp.o CMakeFiles/interface_library.dir/slam_context_interface.cpp.o ../../../../../../lib/libg2o_parser.so -Wl,-rpath,/home/will/svo_workspace/g2o/lib: 
